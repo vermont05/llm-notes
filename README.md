@@ -5,7 +5,11 @@
 https://apxml.com/posts/best-local-llm-apple-silicon-mac
 
 ## Self Hosting Coding Tool (ala Claude)
+
 https://www.reddit.com/r/LocalLLaMA/comments/1men28l/guide_the_simple_selfhosted_ai_coding_that_just/
+
+Roo DOES NOT work. It has circular loops inspecting files.
+Use Cline instead. No MCP server needed, select Cline profile and it will automatically work.
 
 Clarity: You need both an LLM and a Text Embedding
 Ordering issues: Start both models and `Start Server` before turning on MCP Plugin
